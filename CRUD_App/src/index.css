@@ -1,0 +1,60 @@
+* {
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.card {
+  width: 80%;
+  height: 80%;
+  background-color: wheat;
+  padding: 15px;
+  border: 2px solid black;
+  color: black;
+  margin: 20px;
+  position: relative;
+}
+.container {
+  width: 90vw;
+  height: auto;
+  margin: 20px auto;
+  padding: 50px 20px;
+  background-color: brown;
+}
+.card-container {
+  width: 80vw;
+  height: 100%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+}
+.center-h {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.heading {
+  font-weight: bold;
+}
+input {
+  width: 20%;
+}
+.Buttons {
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: blue;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardButtons {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+  position: absolute;
+  margin: 10px 0;
+  bottom: 0;
+}
